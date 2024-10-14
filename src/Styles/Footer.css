@@ -1,0 +1,69 @@
+/* Footer.css */
+
+.footer {
+  background-color: #343a40; /* Dark background */
+  color: #ffffff; /* White text */
+}
+
+.footer-title {
+  font-weight: bold; /* Bold titles */
+  margin-bottom: 15px; /* Space below titles */
+}
+
+.footer-section {
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.footer-section p {
+  font-size: 0.9rem; /* Smaller font size for paragraphs */
+  line-height: 1.5; /* Improved readability */
+}
+
+.list-unstyled {
+  padding-left: 0; /* Remove default padding */
+}
+
+.list-unstyled li {
+  margin-bottom: 10px; /* Space between list items */
+}
+
+.list-unstyled a {
+  color: #ffffff; /* White text for links */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.list-unstyled a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.footer-email {
+  width: 70%; /* Wider email input */
+  border-radius: 0; /* Remove rounded corners */
+}
+
+.btn-subscribe {
+  border-radius: 0; /* Remove rounded corners */
+  background-color: #007bff; /* Bootstrap primary color */
+  border: none; /* Remove border */
+}
+
+.btn-subscribe:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.social-icons {
+  margin-top: 15px; /* Space above social icons */
+}
+
+.social-icons a {
+  font-size: 1.5rem; /* Larger icons */
+  transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.social-icons a:hover {
+  color: #007bff; /* Change color on hover */
+}
+
+.text-center {
+  margin-top: 20px; /* Space above copyright text */
+}

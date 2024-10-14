@@ -1,0 +1,17 @@
+.card {
+    transition: transform 0.2s, box-shadow 0.2s;
+    border: none; /* Remove border */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slightly enlarge the card on hover */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow on hover */
+}
+
+.card-img-top {
+    height: 200px; /* Set a fixed height for images */
+    object-fit: cover; /* Cover the area without stretching */
+    border-top-left-radius: 8px; /* Match card border radius */
+    border-top-right-radius: 8px; /* Match card border radius */
+}
